@@ -191,6 +191,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  cursor: pointer;
 }
 
 .btn-portfolio:hover,
