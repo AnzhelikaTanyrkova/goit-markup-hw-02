@@ -169,3 +169,50 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+
+/*-----------PORTFOLIO-------------*/
+
+.btn-portfolio {
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  height: 38px;
+  background: var(--accent-color);
+  border-radius: 4px;
+  color: var(--first-title-color);
+}
+
+.portfolio-description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-title-color);
+}
+
+.portfolio-txt {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-third);
+}
