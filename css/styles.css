@@ -1,13 +1,20 @@
 body {
   font-family: 'roboto', 'raleway';
+  letter-spacing: 0.03em;
+  color: #212121;
+  font-size: 14px;
+  background-color: #ffffff;
 }
 :root {
   --header-color: #212121;
   --btn-color: #ffffff;
   --accent-color: #2196f3;
   --first-title-color: #ffffff;
-  --second-title-color: #212121;
   --color-third: #757575;
+  --color-back: #000;
+  --color-hero: #2f303a;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --btn-portfolio-color: #f5f4fa;
 }
 .list {
   list-style: none;
@@ -25,7 +32,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #000;
+  color: var(--color-back);
 }
 
 .logo-blue {
@@ -34,7 +41,6 @@ body {
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-color);
@@ -49,7 +55,6 @@ body {
 
 .header-contacts {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-third);
@@ -58,7 +63,7 @@ body {
 /* -----------------HERO------------------*/
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--color-hero);
 }
 
 .hero-text {
@@ -81,26 +86,20 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--btn-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 /* ----------------ABOUT------------*/
 
 .about-adventages {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-title-color);
 }
 
 .about-adventages-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--color-third);
 }
 
@@ -108,13 +107,10 @@ body {
 
 .features-text {
   font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
 }
 
 /*--------------------TEAM--------------*/
@@ -124,58 +120,47 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
 }
 
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
 }
 
 .team-text {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--color-third);
 }
 
 /*--------------FOOTER------------*/
 
 .footer {
-  background: #2f303a;
+  background: var(--color-hero);
 }
 
 .footer-item-adress {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--first-title-color);
 }
 
 .footer-item-mail,
 .footer-item-phone {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-color);
 }
 .logo-footer {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--first-title-color);
 }
 
@@ -183,14 +168,12 @@ body {
 
 .btn-portfolio {
   height: 38px;
-  background: #f5f4fa;
+  background: var(--btn-portfolio-color);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--second-title-color);
   cursor: pointer;
 }
 
@@ -207,13 +190,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--second-title-color);
 }
 
 .portfolio-txt {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--color-third);
 }
