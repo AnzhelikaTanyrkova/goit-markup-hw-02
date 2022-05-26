@@ -1,5 +1,5 @@
 body {
-  font-family: 'roboto', 'raleway';
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: #212121;
   font-size: 14px;
@@ -28,7 +28,7 @@ body {
 
 .header-logo,
 .footer-logo {
-  font-family: 'raleway';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -92,21 +92,22 @@ body {
 /* ----------------ABOUT------------*/
 
 .about-adventages {
-  font-family: 'Roboto';
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .about-adventages-text {
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--color-third);
 }
 
 /*-------------------FEATURES--------------*/
 
 .features-text {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -129,7 +130,6 @@ body {
 }
 
 .team-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   color: var(--color-third);
@@ -150,7 +150,6 @@ body {
 
 .footer-item-mail,
 .footer-item-phone {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   line-height: 1.71;
