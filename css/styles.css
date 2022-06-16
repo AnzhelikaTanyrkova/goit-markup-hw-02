@@ -46,6 +46,10 @@ body {
   color: var(--header-color);
 }
 
+.current: {
+color: var(--accent-color);
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-contacts:hover,
